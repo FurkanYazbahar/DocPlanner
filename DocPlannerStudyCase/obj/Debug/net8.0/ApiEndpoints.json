@@ -1,0 +1,121 @@
+[
+  {
+    "ContainingType": "DocPlannerStudyCase.Controllers.BookVisitController",
+    "Method": "AddBookVisit",
+    "RelativePath": "BookVisit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "VisitId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "StartTime",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "EndTime",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Date",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PatientName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PatientSurname",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "HospitalId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "DoctorId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "BranchId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DocPlannerStudyCase.Controllers.BookVisitController",
+    "Method": "CancelBookVisit",
+    "RelativePath": "cancelVisit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookingId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DocPlannerStudyCase.Controllers.DoctorController",
+    "Method": "ExportDoctorCsv",
+    "RelativePath": "exportDoctorCsv",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nationality",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fileName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DocPlannerStudyCase.Controllers.DoctorController",
+    "Method": "FetchDoctors",
+    "RelativePath": "fetchDoctors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DocPlannerStudyCase.Controllers.ScheduleController",
+    "Method": "FetchSchedules",
+    "RelativePath": "fetchSchedules",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "doctorId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

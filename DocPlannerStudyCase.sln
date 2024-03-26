@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocPlannerStudyCase", "DocPlannerStudyCase\DocPlannerStudyCase.csproj", "{18D4A45D-829F-4E79-B28E-34986824F0F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocPlannerStudyTest", "DocPlannerStudyTest\DocPlannerStudyTest.csproj", "{A36670E1-68A0-42F3-AE4F-E42F3307EBE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18D4A45D-829F-4E79-B28E-34986824F0F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18D4A45D-829F-4E79-B28E-34986824F0F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18D4A45D-829F-4E79-B28E-34986824F0F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18D4A45D-829F-4E79-B28E-34986824F0F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A36670E1-68A0-42F3-AE4F-E42F3307EBE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A36670E1-68A0-42F3-AE4F-E42F3307EBE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A36670E1-68A0-42F3-AE4F-E42F3307EBE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A36670E1-68A0-42F3-AE4F-E42F3307EBE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2CE09074-FE10-425D-A437-78BFD6BCA6B8}
+	EndGlobalSection
+EndGlobal
